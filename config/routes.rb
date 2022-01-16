@@ -4,5 +4,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   get "/query" => "params#query_param"
+  
   get "/query/:newmessg" => "params#wildcard_param"
+  post "/code" => "params#code"
 end

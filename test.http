@@ -1,0 +1,12 @@
+GET http://127.0.0.1:3000/query/howdy
+
+
+###
+
+POST http://localhost:3000/code
+Content-Type: application/json
+
+{
+  "code1": "octopus",
+  "code2": "nots"
+}
